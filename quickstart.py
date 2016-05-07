@@ -186,8 +186,8 @@ def main():
         print(label['name'])
 
     message_text = "Hello How are? Khana Khake Jana Hah!!"
-    sender = "returnofmax@gmail.com"
-    to = "23veenal.bansal@gmail.com"
+    sender = "vaibhavsawhney1511@gmail.com"
+    to = "returnofmax@gmail.com"
     subject = "Invitation"
     message = CreateMessage(sender, to, subject, message_text,service)
     message = SendMessage(service,"me",message)
